@@ -1,0 +1,141 @@
+.button {
+    display: inline-block;
+    border: 2px solid #6cb6f5;
+    padding: 2px 10px;
+    color: #6cb6f5;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centor-div {
+    margin-top: 80px;
+}
+
+.grad {
+    background-image: linear-gradient(#181d7b, #98672f);
+    background-repeat: no-repeat;
+    height: 100%
+}
+
+hr {
+    border: 1px solid #faf0f9;
+    border-radius: 1px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color:white;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.clear {
+    background-color: #a00000;
+    color: white;
+    padding: 2px 30px;
+
+}
+
+.submit {
+    background-color: #4a3852;
+    color: white;
+    padding: 2px 30px;
+}
+
+.table-custom {
+    border-color: #ddd;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* border-bottom: 1px solid #ddd; */
+    text-align: center;
+  }
+
+.table {
+    border: 1px solid #ddd;
+}
+
+.tb-time {
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font: Arial, sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+}
+
+.zui-table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.zui-table thead th {
+    background-color: white;
+    border: solid 1px #ddd;
+    color: #336B6B;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table tbody td:nth-child(odd) {
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    border-right: 1px solid #ddd;
+}
+
+.zui-table tbody td:nth-child(even) {
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    border-right: 1px dashed #ddd;
+}
+
+.zui-table-rounded {
+    border: none;
+}
+.zui-table-rounded thead th {
+    background-color: white;
+    border: none;
+    text-shadow: 1px 1px 1px #ccc;
+    color: #333;
+}
+.zui-table-rounded thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+.zui-table-rounded thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+.zui-table-rounded tbody td {
+    /* border-top: solid 1px #ddd; */
+    background-color: white;
+}
+.zui-table-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+.zui-table-rounded tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    border-right: none;
+}
+
